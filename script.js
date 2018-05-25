@@ -22,7 +22,7 @@ locales.forEach((localeName) => {
   console.log(expanded);
   console.log('######');
   console.log(expanded.one.two.three);
-  fs.writeFileSync(path.join(dir, `${localeName}.json`), transform(obj), 'utf8');
+  fs.writeFileSync(path.join(dir, `${localeName}.json`), transform(expanded), 'utf8');
 }, {});
 
 // module.exports = function transformValues(obj) {
