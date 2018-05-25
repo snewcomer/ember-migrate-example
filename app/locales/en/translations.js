@@ -4,6 +4,10 @@ export default {
   "four.zero": 'hello zero',
   "four.one": 'hello one',
   "four.other": 'hello {{username}}',
+  "five.zero": 'hello zero',
+  "five.other": 'hello {{username}}',
+  "button.submit": 'Send',
+  "button.submit.aria-label": "Save document",
   "foo": {
     "bar": {
       baz: "quz"

@@ -1,14 +1,15 @@
 {
   "hey": "hey",
   "one.two.three.levels": "hello",
-  "four.zero": "hello zero",
-  "four.one": "hello one",
-  "four.other": "hello {username}",
+  "button.submit": "Send",
+  "button.submit.aria-label": "Save document",
   "foo": {
     "bar": {
       "baz": "quz"
     },
     "thingy": "aksjhd",
     "pluralized": "{count, plural, zero {No things} one {One thing} other {# things}}"
-  }
+  },
+  "four": "{count, plural, other {hello {username}} one {hello one} zero {hello zero}}",
+  "five": "{count, plural, other {hello {username}} zero {hello zero}}"
 }
