@@ -10,5 +10,7 @@ export default Route.extend({
     this.i18n.t('wat');
     this.get('i18n').t('wat');
     get(this, 'i18n').t('wat');
+    get(this, 'i18n');
+    let i = this.get('i18n');
   }
 });
