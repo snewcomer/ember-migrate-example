@@ -5,6 +5,7 @@ export default Route.extend({
   i18n: inject('i18n'),
   i18n: inject(),
   i18n: service(),
+  random: alias('random'),
 
   init() {
     this.i18n.t('wat');
