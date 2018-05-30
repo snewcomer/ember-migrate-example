@@ -14,5 +14,6 @@ export default Route.extend({
     get(this, 'i18n');
     let i = this.get('i18n');
     let i = get(this, 'i18n');
+    let message = get(this, 'i18n').t('calendar.real-time-update', {});
   }
 });
